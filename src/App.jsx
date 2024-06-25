@@ -4,6 +4,7 @@ import Food from "./Food";
 import Card from "./Card";
 import Button from "./Botton/Button";
 import Student from "./Props/Student";
+import UserGreeting from "./ConditionRendering/UserGreeting";
 
 function App() {
  
@@ -18,6 +19,8 @@ function App() {
       <Student name='afr' age={20} isStudent={false} colleege='jmi'/>
       <Student name='tal' age={21} isStudent={true} college="Ca" />
       <Student name='nit' age={22} isStudent={false} colleege='gurug'/>
+
+      <UserGreeting IsloggedIn={true} username="zesty"/>
 
   
       <Footer/>
