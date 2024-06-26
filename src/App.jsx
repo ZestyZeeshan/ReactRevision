@@ -8,6 +8,7 @@ import UserGreeting from "./ConditionRendering/UserGreeting";
 import List from "./RenderList/List";
 import UseStateHook from "./ReactHook/UseStateHook";
 import CounterApp from "./ReactHook/CounterApp";
+import Onchange from "./ReactHook/Onchange";
 
 function App() {
  
@@ -29,6 +30,7 @@ function App() {
 
       <UseStateHook/>
       <CounterApp/>
+      <Onchange/>
 
   
       <Footer/>
