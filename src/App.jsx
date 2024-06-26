@@ -5,6 +5,7 @@ import Card from "./Card";
 import Button from "./Botton/Button";
 import Student from "./Props/Student";
 import UserGreeting from "./ConditionRendering/UserGreeting";
+import List from "./RenderList/List";
 
 function App() {
  
@@ -21,6 +22,8 @@ function App() {
       <Student name='nit' age={22} isStudent={false} colleege='gurug'/>
 
       <UserGreeting IsloggedIn={true} username="zesty"/>
+
+      <List/>
 
   
       <Footer/>
