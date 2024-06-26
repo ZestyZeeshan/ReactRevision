@@ -6,6 +6,8 @@ import Button from "./Botton/Button";
 import Student from "./Props/Student";
 import UserGreeting from "./ConditionRendering/UserGreeting";
 import List from "./RenderList/List";
+import UseStateHook from "./ReactHook/UseStateHook";
+import CounterApp from "./ReactHook/CounterApp";
 
 function App() {
  
@@ -24,6 +26,9 @@ function App() {
       <UserGreeting IsloggedIn={true} username="zesty"/>
 
       <List/>
+
+      <UseStateHook/>
+      <CounterApp/>
 
   
       <Footer/>
