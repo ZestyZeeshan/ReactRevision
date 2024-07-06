@@ -10,6 +10,7 @@ import UseStateHook from "./ReactHook/UseStateHook";
 import CounterApp from "./ReactHook/CounterApp";
 import Onchange from "./ReactHook/Onchange";
 import ColorPickerApp from "./ColorPicker/ColorPickerApp";
+import UpdateObject from "./UpdateObject/UpdateObject";
 
 function App() {
  
@@ -33,6 +34,7 @@ function App() {
       <CounterApp/>
       <Onchange/>
       <ColorPickerApp/>
+      <UpdateObject/>
 
   
       <Footer/>
