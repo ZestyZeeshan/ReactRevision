@@ -13,6 +13,7 @@ import ColorPickerApp from "./ColorPicker/ColorPickerApp";
 import UpdateObject from "./UpdateObject/UpdateObject";
 import UpdateArray from "./Array/UpdateArray";
 import UpdateArrayObject from "./Array/UpdateArrayObject";
+import ToDoList from "./To-Do-list/ToDoList";
 
 function App() {
  
@@ -39,6 +40,7 @@ function App() {
       <UpdateObject/>
       <UpdateArray/>
       <UpdateArrayObject/>
+      <ToDoList/>
 
   
       <Footer/>
