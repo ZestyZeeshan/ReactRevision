@@ -14,6 +14,8 @@ import UpdateObject from "./UpdateObject/UpdateObject";
 import UpdateArray from "./Array/UpdateArray";
 import UpdateArrayObject from "./Array/UpdateArrayObject";
 import ToDoList from "./To-Do-list/ToDoList";
+import UseEffect from "./UseEffect/UseEffect";
+
 
 function App() {
  
@@ -41,6 +43,7 @@ function App() {
       <UpdateArray/>
       <UpdateArrayObject/>
       <ToDoList/>
+     <UseEffect/>
 
   
       <Footer/>
