@@ -11,6 +11,8 @@ import CounterApp from "./ReactHook/CounterApp";
 import Onchange from "./ReactHook/Onchange";
 import ColorPickerApp from "./ColorPicker/ColorPickerApp";
 import UpdateObject from "./UpdateObject/UpdateObject";
+import UpdateArray from "./Array/UpdateArray";
+import UpdateArrayObject from "./Array/UpdateArrayObject";
 
 function App() {
  
@@ -35,6 +37,8 @@ function App() {
       <Onchange/>
       <ColorPickerApp/>
       <UpdateObject/>
+      <UpdateArray/>
+      <UpdateArrayObject/>
 
   
       <Footer/>
