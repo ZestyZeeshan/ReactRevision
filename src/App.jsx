@@ -17,6 +17,7 @@ import ToDoList from "./To-Do-list/ToDoList";
 import UseEffect from "./UseEffect/UseEffect";
 import StopWatch from "./Stopwatch/StopWatch";
 import DigitalClock from "./Digitalclock/DigitalClock";
+import UseContextA from "./Usecontext/UseContextA";
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
      <UseEffect/>
      <DigitalClock/>
       <StopWatch/>
+      <UseContextA/>
   
       <Footer/>
     </>

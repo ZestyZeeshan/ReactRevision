@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 
 const DigitalClock=()=>{
-    const[time,setTime]=useState();
+    const[time,setTime]=useState(new Date());
 
     useEffect(()=>{
         const interval = setInterval(() => {
@@ -15,14 +15,14 @@ const DigitalClock=()=>{
     },[]);
 
     function format(){
-        let Hours = time.getHours();
+        let hours = time.getHours();
         const minutes = time.getMinutes();
         const second = time.getSeconds();
-        const meridian = Hours >12 ?"PM":"AM";
+        const meridian = hours > 12 ?"PM":"AM";
 
-        Hours = Hours % 12 || 12;
+        hours = hours % 12 || 12;
 
-        return `${Hours} :${minutes} :${second}: ${meridian}`
+        return `${hours} :${minutes} :${second}: ${meridian}`
     }
 
     return (
