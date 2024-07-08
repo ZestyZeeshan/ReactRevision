@@ -15,6 +15,8 @@ import UpdateArray from "./Array/UpdateArray";
 import UpdateArrayObject from "./Array/UpdateArrayObject";
 import ToDoList from "./To-Do-list/ToDoList";
 import UseEffect from "./UseEffect/UseEffect";
+import StopWatch from "./Stopwatch/StopWatch";
+import DigitalClock from "./Digitalclock/DigitalClock";
 
 
 function App() {
@@ -44,7 +46,8 @@ function App() {
       <UpdateArrayObject/>
       <ToDoList/>
      <UseEffect/>
-
+     <DigitalClock/>
+      <StopWatch/>
   
       <Footer/>
     </>
