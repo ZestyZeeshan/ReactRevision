@@ -18,6 +18,7 @@ import UseEffect from "./UseEffect/UseEffect";
 import StopWatch from "./Stopwatch/StopWatch";
 import DigitalClock from "./Digitalclock/DigitalClock";
 import UseContextA from "./Usecontext/UseContextA";
+import UseRef from "./Usecontext/Useref/UseRef";
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
      <DigitalClock/>
       <StopWatch/>
       <UseContextA/>
+      <UseRef/>
   
       <Footer/>
     </>
